@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.send('Hello World! Testing Jenkins.');
+  res.send('Hello World! Jenkins deployment done.');
 });
 
 module.exports = router;
